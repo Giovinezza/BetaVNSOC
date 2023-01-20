@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Political Manifesto</title>
+    <style>
+      /* CSS for overall styling of the website */
+      :root {
+  --primary-color: rgb(255, 255, 255);
+  --secondary-color: rgb(0, 0, 0);
+  --highlight-color: rgb(255, 251, 0);
+  --text-color: rgb(0, 0, 0); 
+  --header-color: rgb(54, 54, 54);
+  --header-text-color: rgb(255, 255, 255);
+  --ribbon-color: rgb(52, 52, 52);
+  --hover-ribbon-color: rgb(255, 0, 0);
+}
+.dark-mode {
+  --primary-color: rgb(0, 0, 0);
+  --secondary-color: rgb(255, 255, 255);
+  --highlight-color: rgb(3, 3, 3);
+  --text-color: rgb(255, 255, 255);
+  --header-color: rgb(207, 44, 39);
+  --header-text-color: rgb(0, 0, 0);
+  --ribbon-color: rgb(245, 90, 0);
+  --hover-ribbon-color: rgb(0, 0, 0);
+}
+
+     /* CSS for selection */
+::selection {background-color: var(--highlight-color);color: var(--text-color);}
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: var(--secondary-color);
+      }
+      /* CSS for the header */
+      header {
+        background-color: var(--header-color);
+        color: var(--header-text-color);
+        text-align: center;
+        padding: 20px;
+      }
+      nav {
+       background-color: var(--ribbon-color);
+       padding: 15px;
+       user-select: none;}
+      nav li {
+       float: left;
+    }
+      nav ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;}
+      nav a {
+       color: rgb(255, 255, 255);
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;}
+       nav a:hover {
+        color: var(--hover-ribbon-color)
+      }
+      
+      /* CSS for the main content area */
+      main {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: calc(100vh - 80px);
+        overflow: scroll;
+      }
+      /* CSS for the manifesto sections */
+      section {
+        width: 80%;
+        margin: 20px;
+        padding: 20px;
+        background-color: #7979794d;
+        color: var(--primary-color);
+        text-align: center;
+      }
+      /* CSS for the manifesto section headings */
+      h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+      /* CSS for the manifesto section paragraphs */
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+
+      /* CSS for the home button */
+      .return-button {
+           display: inline-block;
+           padding: 10px 20px;
+           text-align: center;
+           text-decoration: none;
+           font-size: 16px;
+           font-weight: bold;
+           color: #fff;
+           background-color: rgb(0, 0, 0);
+           border-radius: 5px;
+           user-select: none;
+        }
+       .return-button:hover {
+           color: rgb(255, 0, 0); }
+       .dark-mode-element {
+           float: right;
+           padding: 10px 20px;
+           text-align: center;
+           text-decoration: none;
+           font-size: 16px;
+           font-weight: bold;
+           color: #fff;
+           background-color: rgb(0, 0, 0);
+           border-radius: 5px;
+           cursor: pointer;
+           user-select: none;
+        }
+        .dark-mode-element:hover {
+           background-color: rgb(255, 255, 255);
+           color: black;
+        }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Manifesto of the Vietnamese Social Movement</h1>
+      <h3><a href="polwebv3.html" class="return-button">Return to Home</a> </h3>
+      <h4>Chapters:</h4>
+      <nav>
+      <ul>
+      <li><a href="#section1">1. Racial Policy</a></li>
+      <li><a href="#section2">2. International Policy</a></li>
+      <li><a href="#section3">Section3</a></li>
+      <li><a href="#section3">Section4</a></li>
+      <li><a href="#section3">Section5</a></li>
+      <li><a href="#section3">Section6</a></li>
+      <li><a href="#section3">Section7</a></li>
+      <li><a href="#section3">Section8</a></li>
+      <li><a href="#section3">Section9</a></li>
+      <li><a href="#section3">Section10</a></li>
+      <li><a href="#section3">Section11</a></li>
+      <li><a href="#section3">Section12</a></li>
+      <li><a href="#section3">Section13</a></li>
+      <bt class="dark-mode-element" id= "dark-mode-button"> Change Contrast Settings </bt>
+      <script>
+      document.getElementById("dark-mode-button").addEventListener("click", function(){
+        document.body.classList.toggle("dark-mode");});
+      </script>
+      </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="section1">
+        <h2>1. Racial Policy</h2>
+        <p>wehatejews.</p>
+        <p>wehatejews.</p>
+        <p>wehatejews.</p>
+        <p>wehatejews.</p>
+        <p>wehatejews.</p>
+        <p>wehatejews.</p>
+        <p>wehatejews.</p>
+        <p>wehatejews.</p>
+        <p>wehatejews.</p>
+        <p>wehatejews.</p>
+        <p>wehatejews.</p>
+        <p>wehatejews.</p>
+        <p>wehatejews.</p>
+        <p>wehatejews.</p>
+        <p>wehatejews.</p>
+        <p>wehatejews.</p>
+        <p>wehatejews.</p>
+        <p>wehatejews.</p>
+      </section>
+      <section id="section2">
+        <h2>2. International Policy</h2>
+        <p>IloveIsrael.</p>
+        <p>IloveIsrael.</p>
+        <p>IloveIsrael.</p>
+        <p>IloveIsrael.</p>
+        <p>IloveIsrael.</p>
+        <p>IloveIsrael.</p>
+        <p>IloveIsrael.</p>
+        <p>IloveIsrael.</p>
+        <p>IloveIsrael.</p>
+        <p>IloveIsrael.</p>
+        <p>IloveIsrael.</p>
+        <p>IloveIsrael.</p>
+        <p>IloveIsrael.</p>
+        <p>IloveIsrael.</p>
+        <p>IloveIsrael.</p>
+        <p>IloveIsrael.</p>
+        <p>IloveIsrael.</p>
+        <p>IloveIsrael.</p>
+      </section>
+      <section id="section3">
+        <h2>Section 3: Healthcare Policy</h2>
+        <p>Paragraph 1: Our healthcare policy is centered on providing universal, affordable access to quality healthcare.</p>
+        <p>Paragraph 2: We will work to lower the cost of prescription drugs and expand access to mental health services.</p>
+        <p>Paragraph 3: We also support protecting pre-existing conditions and expanding Medicaid.</p>
+      </section>
+      <section id="section4">
+        <h2>Section 4: Cultural</h2>
+        <p>Paragraph 1: Our healthcare policy is centered on providing universal, affordable access to quality healthcare.</p>
+        <p>Paragraph 2: We will work to lower the cost of prescription drugs and expand access to mental health services.</p>
+        <p>Paragraph 3: We also support protecting pre-existing conditions and expanding Medicaid.</p>
+      </section>
+    </main>
+  </body>
+</html>
