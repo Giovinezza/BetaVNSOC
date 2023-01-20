@@ -1,0 +1,28 @@
+	  .member-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.member {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  width: 30%;
+}
+
+.member-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.member-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.member-name {
+  font-weight: bold;
+}
