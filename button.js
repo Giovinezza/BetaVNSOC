@@ -42,7 +42,7 @@ var theme = "light";
     
 	themeIcon.classList.add("change");
 	try{
-	discord.src="https://discord.com/widget?id=1046297627798552617&theme=light&WidgetChannel=true";
+	discord.src="https://discord.com/widget?id=1046297627798552617&theme=dark&WidgetChannel=true";
 	}catch{}
     themeIcon.src = sun;
   }
@@ -62,5 +62,5 @@ var theme = "light";
     }, 300);
     themeIcon.classList.add("change");
     themeIcon.src = moon;
-	try{discord.src="https://discord.com/widget?id=1046297627798552617&theme=dark&WidgetChannel=true";}catch{}
+	try{discord.src="https://discord.com/widget?id=1046297627798552617&theme=light&WidgetChannel=true";}catch{}
   }
