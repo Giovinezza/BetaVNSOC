@@ -1,6 +1,6 @@
 # Phong trào xã hội Việt Nam
-[contributors-url]]
-[discord-url]]
+[![][contributors-url]]
+[![][discord-url]]
 
 
 [contributors-url]: https://github.com/Giovinezza/BetaVNSOC/graphs/contributors
