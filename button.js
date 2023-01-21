@@ -1,11 +1,11 @@
 
-const sun = "https://www.uplooder.net/img/image/55/7aa9993fc291bc170abea048589896cf/sun.svg";
-const moon = "https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg"
+const moon = "https://www.uplooder.net/img/image/55/7aa9993fc291bc170abea048589896cf/sun.svg";
+const sun = "https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg"
 
 try{
 	  var discord = document.getElementById("discord");
   }catch{}
-var theme = "dark";
+var theme = "light";
   const root = document.querySelector(":root");
   const container = document.getElementsByClassName("theme-container")[0];
   
