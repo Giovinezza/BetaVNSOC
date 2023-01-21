@@ -3,7 +3,7 @@
   --secondary-color: rgb(0, 0, 0);
   --highlight-color: rgb(255, 251, 0);
   --text-color: rgb(0, 0, 0); 
-  --header-color: rgb(54, 54, 54);
+  --header-color: rgba(54, 54, 54, 0.507);
   --header-text-color: rgb(255, 255, 255);
   --ribbon-color: rgb(52, 52, 52);
   --hover-ribbon-color: rgb(255, 0, 0);
@@ -13,12 +13,29 @@
   --secondary-color: rgb(255, 255, 255);
   --highlight-color: rgb(3, 3, 3);
   --text-color: rgb(255, 255, 255);
-  --header-color: rgb(207, 44, 39);
+  --header-color: rgba(207, 45, 39, 0.507);
   --header-text-color: rgb(0, 0, 0);
   --ribbon-color: rgb(245, 90, 0);
   --hover-ribbon-color: rgb(0, 0, 0);
   
 }
+
+#blurring::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  filter: blur(5px);
+  opacity: 50%;
+  z-index: -1;
+}
+  #blurring {
+    position: relative;
+  }
+
      /* CSS for selection */
      ::selection {background-color: var(--highlight-color);color: var(--text-color);}
 
@@ -35,7 +52,6 @@
       }
       /* CSS for the header */
       header {
-        background-color: var(--header-color);
         color: var(--header-text-color);
         text-align: center;
         padding: 20px;
