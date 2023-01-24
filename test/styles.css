@@ -180,6 +180,7 @@ nav ul li a:hover {
     content: url(assets/images/logo-styled-3D.png);}
 
 .back-more-img:hover {
+  content: url(assets/images/lenin-stalin\ scroll-clear.png);
   transform: translate(-10px, 500px);}
 
 
