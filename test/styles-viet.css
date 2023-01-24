@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
 
 html {
     user-select:none;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
     margin: 0;
     padding: 0;
     background-image: url(assets/images/background.png);
@@ -13,8 +13,8 @@ html {
 
 .quote {
     color: goldenrod;
-    font-family: 'Aboreto', cursive;
-    font-size: larger;
+    font-family: 'Explora', cursive;
+    font-size: xx-large;
     text-align: center;
     text-decoration: none;
     transition: 0.5s;
@@ -134,7 +134,7 @@ nav ul li a:hover {
     transition: 0.5s ease-in-out;
 }
 .article-block a:hover {
-    font-size: 30px;
+    font-size: 26px;
     background: linear-gradient(to top, red, rgba(0, 0, 0, 0.5));
     color: gold;
     text-shadow: 3px 3px 5px black;
