@@ -1,0 +1,127 @@
+* {
+    font-family: Verdana, sans-serif; 
+    margin: 2px;
+}
+
+html {
+    background-color: #000;
+    color: rgb(255, 255, 255);
+}
+
+#title {
+    font-family: 'UnifrakturMaguntia', cursive;
+    text-align: center;
+}
+
+
+#navigation {
+    display: flex;
+    padding: 15px;
+    background-color: #363636e7;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 0px;
+  }
+  
+  #navigation a:hover {
+    color: rgb(255, 0, 0);
+  }
+
+
+  #icon {
+    width: 30px;
+    height: 30px;
+    transition: all 0.5s ease;
+  }
+  
+  #icon:hover {
+    width: 40px;
+    height: 40px;
+  }
+
+  .article-block-politics {
+    background-image: url(https://i.pinimg.com/736x/dc/77/7c/dc777c9276fe0ed2bc99c398ca1c744f--best-iphone-wallpapers-apple-iphone-apps.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+  }
+
+  .article-block-history {
+    background-image: url(https://www.wallpapertip.com/wmimgs/79-796410_iphone-wallpaper-dark-ocean.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+  }
+
+  .article-block-art {
+    background-image: url(https://i.pinimg.com/564x/ac/a8/17/aca817000bd37cb6d7ab9c0cda00c013.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+  }
+
+  .article-block-philosophy {
+    background-image: url(https://images.unsplash.com/photo-1502855991536-374994f6291c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8&w=1000&q=80);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+  }
+
+  .article-block-policy {
+    background-image: url(https://p0.pikist.com/photos/68/235/bokeh-style-effect-camera-50-mm-black-and-white-background-blur.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+  }
+  
+  .article-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .article-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .read-more-button {
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(85, 55, 55);
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+  }
+  
+  .read-more-button:hover {
+    background-color: rgb(180, 58, 58);
+    font-size: 30px;
+  }
+  
+  #donate {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+  

@@ -40,7 +40,8 @@
      ::selection {background-color: var(--highlight-color);color: var(--text-color);}
 
      #title {
-  font-family: 'UnifrakturMaguntia', cursive;
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
   text-align: center;
      }
 
@@ -91,12 +92,12 @@
       }
       /* CSS for the manifesto sections */
       section {
-        width: 80%;
+        width: 50%;
         margin: 20px;
         padding: 20px;
         background-color: #7979794d;
         color: var(--primary-color);
-        text-align: center;
+        font-size: larger;
       }
       /* CSS for the manifesto section headings */
       h2 {
@@ -108,6 +109,15 @@
         font-size: 18px;
         line-height: 1.5;
         margin-bottom: 10px;
+        text-align: left;
+      }
+
+      h3 {
+        text-align: center;
+        font-size: small;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
       }
 
       /* CSS for the home button */
@@ -149,4 +159,10 @@
           line-height: 60px;
           background-color: #7979794d;
           color: var(--primary-color);  
+        }
+
+        .content-image {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
         }
