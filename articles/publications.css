@@ -166,3 +166,33 @@
           margin-left: auto;
           margin-right: auto;
         }
+
+        @media only screen and (max-aspect-ratio: 16/10) {
+          html {
+            font-size: 2vh;
+          }
+          #title {
+            font-size: 6vh;
+          }
+          nav {
+            font-size: 2vh;
+          }
+          section {
+            width: 80%;
+            font-size: 3vh;
+          }
+          h2 {
+            font-size: 4vh;
+          }
+          p {
+            font-size: 2vh;
+          }
+          h3 {
+            font-size: 1.5vh;
+            width: 50%;
+          }
+          .return-button {
+            font-size: 2vh;
+            border-radius: 1vh;            
+          }
+        }
